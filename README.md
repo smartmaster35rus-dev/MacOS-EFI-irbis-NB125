@@ -1,58 +1,55 @@
-# MacOS-EFI-irbis-NB125  test mode
+# macOS EFI — Irbis NB125
 
-EFI загрузчик для Mac OS Hackintosh на ноутбук Irbis NB125.  
-⛔Сырой EFI для успешной загрузки macOS на ноутбуке Irbis NB125. Пока в режиме настройки!!!⛔  
+**OpenCore/EFI configuration for macOS on Irbis NB125**
 
-![image](image/image.jpeg)  
+[![Platinum](https://img.shields.io/badge/Style-Platinum-00c853?style=for-the-badge)](https://smartmaster35rus-activator.ru/)
+[![Website](https://img.shields.io/badge/Site-smartmaster35rus--activator.ru-00c853?style=for-the-badge)](https://smartmaster35rus-activator.ru/)
 
-## Руководство по установке  
-Рекомендуется использовать официальное руководство OpenCore:  
-https://dortania.github.io/OpenCore-Install-Guide/  
+<p align="center">
 
-## Конфигурация железа  
+[рџЊђ Activator site](https://smartmaster35rus-activator.ru/compatible.php)
 
-| Компонент              | Характеристики                                     |  
-|-----------------------|--------------------------------------------------|  
-| Модель компьютера      | Irbis NB125 (12.5" FHD/IPS)                       |  
-| Процессор             | Intel Celeron N3350 @ 1.10GHz (Apollo Lake)       |  
-| Ядер / потоков          | 2 ядра / 2 потока                                 |  
-| Память RAM             | 3 GB DDR3 (две планки по 1.5 ГБ, 1600 MHz)         |  
-| Хранение данных        | SSD 32 GB                                         |  
-| Видеокарта (iGPU)      | Intel UHD Graphics 500 (Apollo Lake)              |  
-| Сетевая карта Ethernet | Realtek RTL8168H                                   |  
-| Аудио                  | Realtek ALC233                                    |  
-| Wi-Fi                  | Intel Wi-Fi 6 AX201                               |  
-| Дисплей                | 12.5" IPS FHD 1920x1080                           |  
+</p>
 
-## Настройки BIOS  
+---
 
-- Включить показ скрытых настроек: CTRL Right + SHIFT Right + ALT Left + F2  
-- Отключить Secure Boot (в Security)  
-- Отключить CFG Lock (Advanced -> Power & Performance -> CPU -> CPU Lock Configuration)  
-- Отключить Fast Boot (Boot)  
-- Выбрать режим загрузки UEFI без CSM (Boot)  
+## рџ‡·рџ‡є Рћ РїСЂРѕРіСЂР°РјРјРµ
 
-## Что работает  
-   
-- Корректная перезагрузка, переход в спящий режим и выключение    
-- Все USB порты корректно распознаются   
-- Функциональные клавиши (яркость, громкость и др.)   
+**OpenCore EFI для Irbis NB125** — исследование совместимости macOS на ноутбуке Irbis NB125 (test mode).
 
-## Что не работает  
+## рџ‡¬рџ‡§ About
 
-- Управление питанием процессора (P-States, C-States)  
-- AirDrop пока не поддерживается  
-- QE/CI графика Intel UHD Graphics (аппаратное ускорение iGPU)
-- Аудио Realtek ALC233
-- Трекпад с поддержкой мультитач-жестов  
-- Индикация состояния батареи 
-- Wi-Fi Intel AX201  
-- Аудио Realtek ALC233 
-- Bluetooth  
-- Поддержка Bluetooth-гарнитуры и микрофона  
-- Вывод видео и аудио через HDMI 
-- iMessage и FaceTime работают  
----  
+OpenCore/EFI configuration for macOS on Irbis NB125 — hardware compatibility research.
 
-Этот проект распространяется по лицензии [MIT](LICENSE).
-Copyright (c) 2025 SmartMaster35rus
+---
+
+## вњЁ Key features
+
+| Feature | Description |
+|---------|-------------|
+| 🖥️ **Irbis NB125** | Laptop target |
+| 🍎 **macOS** | OpenCore boot research |
+| ⚙️ **EFI** | Experimental config |
+
+---
+
+## рџ“‹ Requirements
+
+- Irbis NB125 hardware
+- Experimental — use at own risk
+
+---
+
+## вљ–пёЏ Disclaimer
+
+РРЅСЃС‚СЂСѓРјРµРЅС‚ РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅ РґР»СЏ **Р°РІС‚РѕСЂРёР·РѕРІР°РЅРЅРѕРіРѕ СЃРµСЂРІРёСЃР° Рё РёСЃСЃР»РµРґРѕРІР°РЅРёР№** РЅР° СѓСЃС‚СЂРѕР№СЃС‚РІР°С…, РєРѕС‚РѕСЂС‹РјРё РІС‹ РІР»Р°РґРµРµС‚Рµ РёР»Рё РёРјРµРµС‚Рµ РїСЂР°РІРѕ РѕР±СЃР»СѓР¶РёРІР°С‚СЊ.
+
+For **authorized service and research** on devices you own or may service.
+
+---
+
+<p align="center">
+
+**SmartMaster35Rus** В· [smartmaster35rus-activator.ru](https://smartmaster35rus-activator.ru/compatible.php)
+
+</p>
